@@ -8,7 +8,7 @@ This project provides a comprehensive analysis of telecommunications data from t
 * **Data Processing:** `Pandas`, `NumPy`, `glob` (standard library)
 * **Visualization:** `Matplotlib`, `Seaborn`
 * **Machine Learning:** `Scikit-learn` (StandardScaler, K-Means)
-* **Data Format:** `json` (for GeoJSON grid handling)
+* **Data Format:** `json` 
 ## 📊 Data Acquisition
 
 The dataset used in this project is part of the **Telecom Italia Big Data Challenge**. To run the analysis, you need to obtain the following files:
