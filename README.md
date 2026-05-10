@@ -16,7 +16,7 @@ The dataset used in this project is part of the **Telecom Italia Big Data Challe
 ### 1. Telecommunications Data (Activity Logs)
 The core dataset contains mobile phone activity (SMS, Calls, Internet) for the city of Milan.
 * **Source:** [Harvard Dataverse - Open Population Repository](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/EGZHFV) or the official **Nature Scientific Data** portal.
-* **Required Files:** All `.txt` files covering November 2013 (e.g., `sms-call-internet-mi-2013-11-01.txt` through `2013-11-30.txt`).
+* **Required Files:** All `.txt` files from 1 until 28th November 2013.
 * **Placement:** Download and extract these files into the `Data/` folder in the project root.
 
 ### 2. Grid Geometry (GeoJSON)
