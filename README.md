@@ -28,12 +28,8 @@ To visualize the 10,000 squares on a map (Task V), the grid geometry file is req
 ### 3. About the Data
 The dataset is provided in a tab-separated format with the following structure:
 `SquareID | TimeInterval | CountryCode | SMS-in | SMS-out | Call-in | Call-out | Internet`
-*Note: This project specifically handles the field alignment issue where "Country Code" and "Internet" activity may be shifted in certain source versions.*
-
 
 ## ⚙️ How to Run
-Follow these steps to replicate the analysis on your local machine:
-### 1. Prerequisites
 Ensure you have **Python 3.12** installed. You will also need the following external libraries:
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
