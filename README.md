@@ -15,15 +15,15 @@ The dataset used in this project is part of the **Telecom Italia Big Data Challe
 
 ### 1. Telecommunications Data (Activity Logs)
 The core dataset contains mobile phone activity (SMS, Calls, Internet) for the city of Milan.
-* **Source:** [Harvard Dataverse - Open Population Repository](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/EGZDWV) or the official **Nature Scientific Data** portal.
+* **Source:** [Harvard Dataverse - Open Population Repository](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/EGZHFV) or the official **Nature Scientific Data** portal.
 * **Required Files:** All `.txt` files covering November 2013 (e.g., `sms-call-internet-mi-2013-11-01.txt` through `2013-11-30.txt`).
 * **Placement:** Download and extract these files into the `Data/` folder in the project root.
 
 ### 2. Grid Geometry (GeoJSON)
 To visualize the 10,000 squares on a map (Task V), the grid geometry file is required.
-* **Source:** Included in the same dataset link above or via the [Milan Grid GeoJSON](https://github.com/marcodena/mi-phone-data/blob/master/data/milano-grid.geojson) repository.
+* **Source:** Included in the same dataset link above or via the [Milan Grid GeoJSON](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QJWLFU) repository.
 * **Required File:** `milano-grid.geojson`.
-* **Placement:** Place this file in the root directory or the `Data/` folder (ensure the path in `main.ipynb` matches).
+* **Placement:** Place this file in the root directory.
 
 ### 3. About the Data
 The dataset is provided in a tab-separated format with the following structure:
